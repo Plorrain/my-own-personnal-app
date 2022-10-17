@@ -2,8 +2,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <h2>Hi I'm Philippine! My website is progress👷‍♀️</h2>
+    <div className='container'>
+      <h3>Hi I'm Philippine! This app is progress👷‍♀️. More to comme soon!</h3>
     </div>
   );
 }
