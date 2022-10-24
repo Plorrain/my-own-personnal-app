@@ -1,11 +1,10 @@
 import React from 'react';
+import ReactCardFlip from "../src/components/UI/ReactCardFlip";
 
-function App() {
+function App(props) {
+  // const [flip, setFlip] = useState(false);
   return (
-    <div className='container'>
-      <h2 align="center">Hi I'm Philippine! This app is progress👷‍♀️. More to comme soon!</h2>
-    </div>
+      <ReactCardFlip />
   );
 }
-
 export default App;
