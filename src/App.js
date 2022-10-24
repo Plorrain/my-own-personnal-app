@@ -9,49 +9,58 @@ function App() {
           <div style={{
               width: '300px',
               height: '200px',
-              background: '#d7fbda',
-              fontSize: '40px',
-              color: 'green',
+              background: '#e0edff',
+              border:'2px solid #D8D8D8',
+              boxShadow: '2px 2px #D8D8D8',
+              fontFamily: 'Verdana, sans-serif',
+              fontSize: '30px',
+              color: '#1F1D36',
               margin: '20px',
               borderRadius: '4px',
               textAlign: 'center',
               padding: '20px'
           }}>
-              Welcome to GFG.
+              Hi✨ my name is Philippine...
               <br />
               <br />
               <button style={{
                   width: '150px',
-                  padding: '10px',
-                  fontSize: '20px',
-                  background: '#f5d9fa',
+                  padding: '13px',
+                  fontSize: '15px',
+                  background: '#FEC260',
                   fontWeight: 'bold',
+                  color: '#787A91',
                   borderRadius: '5px'
               }} onClick={() => setFlip(!flip)}>
-                  Flip</button>
+                  Learn more</button>
           </div>
           <div style={{
               width: '300px',
               height: '200px',
-              background: '#fbd7f8',
-              fontSize: '40px',
-              color: 'blue',
+              background: '#FEC260',
+              border:'2px solid #D8D8D8',
+              boxShadow: '2px 2px #D8D8D8',
+              fontSize: '30px',
+              fontFamily: 'Verdana, sans-serif',
+              color: '#787A91',
               margin: '20px',
               borderRadius: '4px',
               textAlign: 'center',
               padding: '20px'
           }}>
-              Computer Science Portal.
+              I made this card using React.
               <br />
               <button style={{
                   width: '150px',
-                  padding: '10px',
-                  fontSize: '20px',
-                  background: '#f5d9fa',
+                  padding: '15px',
+                  marginTop: '40px',
+                  fontSize: '15px',
+                  background: '#e0edff',
+                  color: '#1F1D36',
                   fontWeight: 'bold',
-                  borderRadius: '5px'
+                  borderRadius: '7px'
               }} onClick={() => setFlip(!flip)}>
-                  Flip</button>
+                  Flip Back</button>
           </div>
       </ReactCardFlip>
   );
