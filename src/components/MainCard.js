@@ -2,6 +2,10 @@ import React from 'react';
 
 function MainCard() {
   return(
-<div></div>
+<div className='main-card'>
+
+</div>
   );
 }
+
+export default MainCard;
