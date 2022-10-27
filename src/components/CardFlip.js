@@ -26,15 +26,17 @@ function CardFlip() {
               Hi✨ my name is Philippine...
               <br />
               <br />
-              <button style={{
+              <button className='button-front-card' onClick={() => setFlip(!flip)}>
+
+              {/* style={{
                   width: '150px',
                   padding: '13px',
                   fontSize: '15px',
                   background: '#FEC260',
                   fontWeight: 'bold',
                   color: '#787A91',
-                  borderRadius: '5px'
-              }} onClick={() => setFlip(!flip)}>
+                  borderRadius: '5px'  }}*/}
+
                   Learn more</button>
           </div>
           <div style={{
