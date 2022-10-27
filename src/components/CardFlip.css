@@ -1,16 +1,16 @@
 .front-card {
-    width: 300px;
-    height: 200px;
-    background: #e0edff;
-    border: 2px solid #D8D8D8;
-    box-shadow: 2px 2px #D8D8D8;
-    font-family: Verdana, sans-serif;
-    font-size: 30px;
-    color: #1F1D36;
-    margin: 20px;
-    border-radius: 4px;
-    text-align: center;
-    padding: 20px
+  width: 300px;
+  height: 200px;
+  background: #e0edff;
+  border: 2px solid #D8D8D8;
+  box-shadow: 2px 2px #D8D8D8;
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  color: #1F1D36;
+  margin: 20px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px
 }
 
 .button-front-card {
