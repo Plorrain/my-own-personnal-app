@@ -1,10 +1,14 @@
-import React from 'react';
-// import ReactCardFlip from "react-card-flip";
+import React, { Fragment } from 'react';
+
+import PageHeader from './components/UI/PageHeader';
 import CardFlip from './components/CardFlip';
 
 function App() {
 return (
-     <CardFlip />
+    <Fragment>
+      <PageHeader />
+      <CardFlip />
+    </Fragment>
   );
 }
 
