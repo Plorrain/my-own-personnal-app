@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import PageHeader from './components/UI/PageHeader';
-import CardFlip from './components/CardFlip';
+import CardFlip from './components/UI/CardFlip';
 
 function App() {
 return (
