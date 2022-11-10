@@ -1,6 +1,6 @@
 .front-card {
   width: 300px;
-  height: 200px;
+  height: 230px;
   background: #e0edff;
   border: 2px solid #D8D8D8;
   box-shadow: 2px 2px #D8D8D8;
@@ -21,13 +21,12 @@
   background: #FEC260;
   font-weight: bold;
   color: #787A91;
-  border-radius: 5px;
-
+  border-radius: 5px
 }
 
 .back-card {
   width: 300px;
-  height: 200px;
+  height: 230px;
   background: #FEC260;
   border:2px solid #D8D8D8;
   box-shadow: 2px 2px #D8D8D8;
