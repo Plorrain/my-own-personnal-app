@@ -15,7 +15,8 @@
 
 .button-front-card {
   width: 150px;
-  padding: 13px;
+  padding: 10px;
+  margin-bottom: 25px;
   font-size: 15px;
   background: #FEC260;
   font-weight: bold;

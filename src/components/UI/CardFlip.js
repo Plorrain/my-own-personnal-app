@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import ReactCardFlip from "react-card-flip";
 import './CardFlip.css';
 
 function CardFlip() {
   const [flip, setFlip] = useState(false);
   return (
+    <Fragment>
       <ReactCardFlip isFlipped={flip}
           flipDirection="vertical">
         <div className='front-card'>
@@ -24,6 +25,7 @@ function CardFlip() {
             </button>
         </div>
       </ReactCardFlip>
+    </Fragment>
   );
 }
 
