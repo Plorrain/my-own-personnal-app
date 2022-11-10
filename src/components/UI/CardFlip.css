@@ -10,7 +10,7 @@
   margin: 20px;
   border-radius: 4px;
   text-align: center;
-  padding: 20px
+  padding: 20px;
 }
 
 .button-front-card {
@@ -21,7 +21,8 @@
   background: #FEC260;
   font-weight: bold;
   color: #787A91;
-  border-radius: 5px
+  border-radius: 5px;
+
 }
 
 .back-card {
