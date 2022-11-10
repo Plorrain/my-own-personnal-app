@@ -1,19 +1,9 @@
 import React from 'react';
 import {
   BriefcaseIcon,
-  // CalendarIcon,
-  // CheckIcon,
-  // ChevronDownIcon,
   CurrencyDollarIcon,
-  LinkIcon,
   MapPinIcon,
-  // PencilIcon,
 } from '@heroicons/react/20/solid';
-// import { Menu, Transition } from '@headlessui/react';
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
 
 export default function PageHeader() {
   return (
@@ -39,17 +29,8 @@ export default function PageHeader() {
       </div>
       <div className="mt-5 flex lg:mt-0 lg:ml-4">
         <span className="ml-3 hidden sm:block">
-          <button
-            type="button"
-            className="inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-          >
-            <LinkIcon className="-ml-1 mr-2 h-5 w-5 text-gray-500" aria-hidden="true" />
-            View
-          </button>
         </span>
       </div>
     </div>
   )
 }
-
-// export default PageHeader;

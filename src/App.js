@@ -8,6 +8,7 @@ return (
     <Fragment>
       <PageHeader />
       <CardFlip />
+      <CardFlip />
     </Fragment>
   );
 }
