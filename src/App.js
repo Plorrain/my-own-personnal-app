@@ -13,7 +13,7 @@ return (
         <CardFlip />
       </div>
       <footer>
-        Made with 💝 by Philippine Lorrain
+        Made with 💙 by Philippine Lorrain
       </footer>
     </Fragment>
   );
