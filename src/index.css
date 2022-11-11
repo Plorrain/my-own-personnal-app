@@ -8,4 +8,11 @@ body {
 
 footer {
   background-color: beige;
+  height: 80px;
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  text-align: center;
+  padding: 30px;
 }
