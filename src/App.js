@@ -7,11 +7,11 @@ import CardFlip from './components/UI/CardFlip';
 function App() {
 return (
     <Fragment>
-      <h1 style={{color: "#F3C5C5"}}>Philippine Lorrain</h1>
+      <h1 className='my-name'>Philippine Lorrain</h1>
       <PageHeader />
       <CardFlip />
       <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
-        Made with 🖤 by Philippine Lorrain
+        Made with 🖤 by yours truly
       </footer>
     </Fragment>
   );

@@ -6,6 +6,11 @@ body {
   background-color: #FBF8F1;
 }
 
+.my-name {
+  color: #F3C5C5;
+  font-size: 50px;
+}
+
 footer {
   /* color selected: #C1A3A3 */
   background-color: #C1A3A3;
