@@ -1,7 +1,7 @@
 .front-card {
   width: 300px;
   height: 230px;
-  background: #e0edff;
+  background: #cec2b5;
   border: 2px solid #D8D8D8;
   box-shadow: 2px 2px #D8D8D8;
   font-family: Verdana, sans-serif;
@@ -27,12 +27,12 @@
 .back-card {
   width: 300px;
   height: 230px;
-  background: #FEC260;
+  background: #cec2b5;
   border:2px solid #D8D8D8;
   box-shadow: 2px 2px #D8D8D8;
   font-size: 30px;
   font-family: Verdana, sans-serif;
-  color: #787A91;
+  color: #1F1D36;
   margin: 20px;
   border-radius: 4px;
   text-align: center;
@@ -41,11 +41,11 @@
 
 .button-back-card {
   width: 150px;
-  padding: 15px;
+  padding: 10px;
   margin-top: 40px;
   font-size: 15px;
-  background: #e0edff;
-  color: #1F1D36;
+  background: #FEC260;
+  color: #787A91;
   font-weight: bold;
   border-radius: 7px
 }

@@ -11,6 +11,7 @@ return (
       </div>
       <img src={require('./images/profile-picture.jpeg').default} alt='Philippine Lorrain' />
       <PageHeader />
+        <h1>Projects</h1>
       <CardFlip />
       <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
         Made with 🖤 by yours truly

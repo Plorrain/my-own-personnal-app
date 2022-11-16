@@ -9,7 +9,6 @@ function CardFlip() {
       <ReactCardFlip isFlipped={flip}
           flipDirection="vertical">
         <div className='front-card'>
-          Hi✨ my name is Philippine...
             <br />
             <br />
             <button className='button-front-card'
@@ -17,11 +16,11 @@ function CardFlip() {
                 Learn more
             </button>
         </div>
-        <div className='back-card'> I made this card using React.
+        <div className='back-card'>
           <br />
             <button className='button-back-card'
               onClick={() => setFlip(!flip)}>
-              Flip Back
+              Done
             </button>
         </div>
       </ReactCardFlip>
