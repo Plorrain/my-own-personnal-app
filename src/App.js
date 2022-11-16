@@ -14,10 +14,10 @@ return (
         <h1>Projects</h1>
         <p>Brunchtime</p>
         <h1>About me</h1>
-        <p>I used to work in retail/customer service. I decided to change careers
-          and ended up learning code in a bootcamp.
-          I am learning react at the moment
-          (and i used it for this website 😯)
+        <p>I used to work in retail/customer service. In 2022, decided to change careers
+          and ended up learning code in a bootcamp and I loved the experience.
+          I am currently learning react
+          (and i used it for this website 😯)!
         </p>
       <CardFlip />
       <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
