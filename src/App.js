@@ -7,7 +7,9 @@ import CardFlip from './components/UI/CardFlip';
 function App() {
 return (
     <Fragment>
-      <h1 className='my-name'>Philippine Lorrain</h1>
+      <div className='name-banner'>
+        <h1 className='my-name'>Philippine Lorrain</h1>
+      </div>
       <PageHeader />
       <CardFlip />
       <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
