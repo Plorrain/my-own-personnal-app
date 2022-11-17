@@ -12,7 +12,11 @@ return (
       <img src={require('./images/profile-picture.jpeg').default} alt='Philippine Lorrain' />
       <PageHeader />
         <h1>Projects</h1>
-        <p>Brunchtime</p>
+        <a href='https://www.brunchtime.live/' target='blank'>Brunchtime</a>
+        {/* brunchtime in a card component maybe? */}
+        <ul>
+          <li>Teamwork project while at Le Wagon</li>
+        </ul>
         <h1>About me</h1>
         <p>I used to work in retail/customer service. In 2022, decided to change careers
           and ended up learning code in a bootcamp and I loved the experience.
