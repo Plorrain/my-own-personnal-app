@@ -5,6 +5,10 @@
 body {
   background-color: #FBF8F1;
 }
+.container {
+  width: 500px;
+  padding:12pxpx;
+}
 
 .my-name {
   color: #F3C5C5;
