@@ -9,10 +9,10 @@ return (
 {/* lets make scrolling pretty */}
 
       {/* different colors for name banner */}
-        <div className='name-banner'>
-          <h1 className='my-name'>Philippine Lorrain</h1>
-        </div>
-      <div className='container'>
+      <div className='name-banner'>
+        <h1 className='my-name'>Philippine Lorrain</h1>
+      </div>
+      <div> {/*div for a container?*/}
         {/* image not working */}
         <img src={require('./images/profile-picture.jpeg').default} alt='Philippine Lorrain' />
 
@@ -25,7 +25,6 @@ return (
             <li>Teamwork project while at Le Wagon</li>
           </ul>
         </div>
-
           <h1>About me</h1>
         <div>
           <p>I used to work in retail/customer service. In 2022, decided to change careers
@@ -34,7 +33,7 @@ return (
             (and i used it for this website 😯)!
           </p>
         </div>
-        {/* make a list of skills (on flipcard?) */}
+          {/* make a list of skills (on flipcard?) */}
         <CardFlip />
       </div>
       <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
