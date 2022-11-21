@@ -21,11 +21,11 @@ return (
         {/* brunchtime in a card component maybe? */}
         <div>
           <a href='https://www.brunchtime.live/' target='blank'>Brunchtime</a>
-          <ul>
-            <li>Teamwork project while at Le Wagon</li>
-          </ul>
         </div>
-          <h1>About me</h1>
+        <div>
+          <h2>Teamwork project while at Le Wagon</h2>
+        </div>
+        <h1>About me</h1>
         <div>
           <p>I used to work in retail/customer service. In 2022, decided to change careers
             and ended up learning code in a bootcamp and I loved the experience.
