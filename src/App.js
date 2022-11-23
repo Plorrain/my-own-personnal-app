@@ -6,10 +6,10 @@ import CardFlip from './components/UI/CardFlip';
 function App() {
 return (
     <Fragment>
-      {/* lets make scrolling pretty */}
-      {/* different colors for name banner */}
-      <div className='name-banner'>
-        <h1 className='my-name'>Philippine Lorrain</h1>
+      <div className='container-full'>
+        <div className='name-banner'>
+          <h1>Philippine Lorrain</h1>
+        </div>
       </div>
       <div className='container'>
         {/* image not working */}
@@ -34,10 +34,13 @@ return (
         </div>
           {/* make a list of skills (on flipcard?) */}
         <CardFlip />
+        <CardFlip />
       </div>
-      <footer style={{backgroundColor: "#C1A3A3", color: "#F3C5C5"}}>
-        Made with 🖤 by yours truly
-      </footer>
+      <div className='container-full'>
+        <footer>
+          Made with 🖤 by yours truly
+        </footer>
+      </div>
     </Fragment>
   );
 }
