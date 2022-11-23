@@ -6,13 +6,12 @@ import CardFlip from './components/UI/CardFlip';
 function App() {
 return (
     <Fragment>
-{/* lets make scrolling pretty */}
-
+      {/* lets make scrolling pretty */}
       {/* different colors for name banner */}
       <div className='name-banner'>
         <h1 className='my-name'>Philippine Lorrain</h1>
       </div>
-      <div> {/*div for a container?*/}
+      <div className='container'>
         {/* image not working */}
         <img src={require('./images/profile-picture.jpeg').default} alt='Philippine Lorrain' />
 

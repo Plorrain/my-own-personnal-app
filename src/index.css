@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.container {
   background-color: #FBF8F1;
+
 }
+
+/* body {
+  background-color: #FBF8F1;
+} */
 
 .my-name {
   color: #F3C5C5;
