@@ -13,6 +13,7 @@ body {
 }
 
 .container-full {
+  /* not working for header and footer (still a margin not to size) */
   max-width: 1240px;
 }
 
