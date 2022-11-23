@@ -2,23 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+body {
   background-color: #FBF8F1;
-
 }
 
-/* body {
-  background-color: #FBF8F1;
-} */
+.container {
+  /* background-color: #FBF8F1; */
+  text-align: justify;
+  margin: 20px 20px;
+}
+
+.name-banner {
+  background-color: #C1A3A3;
+  width: inherit;
+}
 
 .my-name {
   color: #F3C5C5;
   font-size: 50px;
   text-align: center;
-}
-
-.name-banner {
-  background-color: #C1A3A3;
 }
 
 footer {
