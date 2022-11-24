@@ -6,6 +6,8 @@ body {
   background-color: #FBF8F1;
 }
 
+/* containers */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -13,10 +15,11 @@ body {
 }
 
 .container-full {
-  /* not working for header and footer (still a margin not to size) */
   max-width: 100%;
   box-sizing: border-box;
 }
+
+/* banner/top of page */
 
 .name-banner {
   background-color: #C1A3A3;
@@ -24,6 +27,18 @@ body {
   font-size: 50px;
   text-align: center;
 }
+
+/* image */
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 5%;
+}
+
+/* footer */
 
 footer {
   background-color: #C1A3A3;

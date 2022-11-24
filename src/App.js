@@ -13,9 +13,7 @@ return (
         </div>
       </div>
       <div className='container'>
-
         <img src={profilePicture} alt='Philippine Lorrain' />
-
         <PageHeader />
           <h1>Projects</h1>
         {/* brunchtime in a card component maybe? */}
