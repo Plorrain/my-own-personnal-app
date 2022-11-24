@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import PageHeader from './components/UI/PageHeader';
 import CardFlip from './components/UI/CardFlip';
+import profilePicture from './images/profile-picture.png'
 
 function App() {
 return (
@@ -12,8 +13,7 @@ return (
         </div>
       </div>
       <div className='container'>
-        {/* image not working */}
-        <img src={require('./images/profile-picture.jpeg').default} alt='Philippine Lorrain' />
+        <img src={profilePicture} alt='Philippine Lorrain' />
 
         <PageHeader />
           <h1>Projects</h1>
