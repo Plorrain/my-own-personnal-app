@@ -13,6 +13,7 @@ return (
         </div>
       </div>
       <div className='container'>
+
         <img src={profilePicture} alt='Philippine Lorrain' />
 
         <PageHeader />
@@ -26,10 +27,9 @@ return (
         </div>
         <h1>About me</h1>
         <div>
-          <p>I used to work in retail/customer service. In 2022, decided to change careers
-            and ended up learning code in a bootcamp and I loved the experience.
-            I am currently learning react
-            (and i used it for this website 😯)!
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat beatae, ab nostrum et excepturi aliquid
+            reprehenderit architecto rerum voluptas culpa consequuntur.
+            Earum voluptates non perferendis consequatur praesentium optio enim minima.
           </p>
         </div>
           {/* make a list of skills (on flipcard?) */}
