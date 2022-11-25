@@ -13,9 +13,8 @@ function App() {
         </div>
       </div>
       <div className="container">
-        <div className="image-background">
-          <img src={profilePicture} alt="Philippine Lorrain" />
-        </div>
+        {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
+        <div className="image-background"></div>
         <PageHeader />
         <h1>Projects</h1>
         {/* brunchtime in a card component maybe? */}

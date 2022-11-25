@@ -34,12 +34,11 @@ body {
 /* image */
 
 .image-background {
+  background-image: url("./images/profile-picture.png");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
+  background-size: cover;
   background-position: center;
-}
-
-img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -50,6 +49,18 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 5%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 /* footer */
 
