@@ -33,6 +33,12 @@ body {
 
 /* image */
 
+.image-background {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+
 img {
   width: 300px;
   height: 300px;

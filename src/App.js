@@ -13,7 +13,9 @@ function App() {
         </div>
       </div>
       <div className="container">
-        <img src={profilePicture} alt="Philippine Lorrain" />
+        <div className="image-background">
+          <img src={profilePicture} alt="Philippine Lorrain" />
+        </div>
         <PageHeader />
         <h1>Projects</h1>
         {/* brunchtime in a card component maybe? */}
