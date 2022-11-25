@@ -10,13 +10,16 @@ function App() {
       <div className="container-full">
         <div className="name-banner">
           <h1>Philippine Lorrain</h1>
+          <div className="translation-button">
+            <p>Eng</p>
+          </div>
         </div>
       </div>
       <div className="container">
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
         <PageHeader />
-        <h1>Projects</h1>
+        <p>Projects</p>
         {/* brunchtime in a card component maybe? */}
         <div>
           <a href="https://www.brunchtime.live/" target="blank">
