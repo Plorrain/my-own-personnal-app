@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import PageHeader from "./components/UI/PageHeader";
 import CardFlip from "./components/UI/CardFlip";
-import profilePicture from "./images/profile-picture.png";
+// import profilePicture from "./images/profile-picture.png"; <-- needed if <img /> has to be added again
 
 function App() {
   return (
