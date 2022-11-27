@@ -37,6 +37,11 @@ body {
   display:flex;
   justify-content: flex-end;
   color: #f2dada;
+  position: absolute;
+  right: 10px;
+  font-size: small;
+  /* below: this bit of position needs to be fixed */
+  top: 0px;
 
 }
 
