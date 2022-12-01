@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import PageHeader from "./components/UI/PageHeader";
+// import PageHeader from "./components/UI/PageHeader";
 import CardFlip from "./components/UI/CardFlip";
 // import profilePicture from "./images/profile-picture.png"; <-- needed if <img /> has to be added again
 
@@ -18,7 +18,7 @@ function App() {
       <div className="container">
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
-        <PageHeader />
+        {/* <PageHeader /> */}
         <p>Projects</p>
         {/* brunchtime in a card component maybe? */}
         <div>
