@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 
+import Card from "./components/UI/Card";
 // import PageHeader from "./components/UI/PageHeader";
 import CardFlip from "./components/UI/CardFlip";
 // import profilePicture from "./images/profile-picture.png"; <-- needed if <img /> has to be added again
@@ -21,11 +22,11 @@ function App() {
         {/* <PageHeader /> */}
         <p>Projects</p>
         {/* brunchtime in a card component maybe? */}
-        <div>
+        <Card>
           <a href="https://www.brunchtime.live/" target="blank">
             Brunchtime
           </a>
-        </div>
+        </Card>
         <div>
           <h2>Teamwork project while at Le Wagon</h2>
         </div>
