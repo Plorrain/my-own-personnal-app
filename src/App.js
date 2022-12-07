@@ -31,14 +31,14 @@ function App() {
           <h2>Teamwork project while at Le Wagon</h2>
         </div>
         <h1>About me</h1>
-        <div>
+        {/* <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
             beatae, ab nostrum et excepturi aliquid reprehenderit architecto
             rerum voluptas culpa consequuntur. Earum voluptates non perferendis
             consequatur praesentium optio enim minima.
           </p>
-        </div>
+        </div> */}
         {/* make a list of skills (on flipcard?) */}
         <CardFlip />
         <CardFlip />
