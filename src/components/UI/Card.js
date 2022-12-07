@@ -12,7 +12,7 @@ const Card = (props) => {
 
 export default Card;
 
-// UI basic card component
+// UI basic card component from MUI
 
 // import * as React from 'react';
 // import Box from '@mui/material/Box';
