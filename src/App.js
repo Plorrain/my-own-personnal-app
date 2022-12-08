@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 
-import Card from "./components/UI/Card";
+import BasicCard from "./components/UI/BasicCard";
 // import PageHeader from "./components/UI/PageHeader";
-import CardFlip from "./components/UI/CardFlip";
+// import CardFlip from "./components/UI/CardFlip";
 // import profilePicture from "./images/profile-picture.png"; <-- needed if <img /> has to be added again
 
 function App() {
@@ -22,11 +22,11 @@ function App() {
         {/* <PageHeader /> */}
         <p>Projects</p>
         {/* brunchtime in a card component maybe? */}
-        <Card>
+        <BasicCard>
           <a href="https://www.brunchtime.live/" target="blank">
             Brunchtime
           </a>
-        </Card>
+        </BasicCard>
         <div>
           <h2>Teamwork project while at Le Wagon</h2>
         </div>
@@ -40,8 +40,8 @@ function App() {
           </p>
         </div> */}
         {/* make a list of skills (on flipcard?) */}
-        <CardFlip />
-        <CardFlip />
+        {/* <CardFlip />
+        <CardFlip /> */}
       </div>
       <div className="container-full">
         <footer>Made with 🖤 by yours truly</footer>
