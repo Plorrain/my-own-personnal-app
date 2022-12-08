@@ -1,17 +1,5 @@
 import React from 'react';
 
-// import './Card.css';
-
-// const Card = (props) => {
-//   return (
-//     <div className='card'>{props.children}</div>
-//     // line above: should look like {`${classes.card} ${props.className}`}
-//     // if classes css was used
-//   );
-// };
-
-// export default Card;
-
 // UI basic card component from MUI
 
 import Box from '@mui/material/Box';
@@ -19,7 +7,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 
 // MAYBE FIND A NEW BASIC AND SIMPLE CARD UI TO USE
 

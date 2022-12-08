@@ -27,10 +27,10 @@ function App() {
             Brunchtime
           </a>
         </BasicCard>
-        <div>
+        {/* <div>
           <h2>Teamwork project while at Le Wagon</h2>
         </div>
-        <h1>About me</h1>
+        <h1>About me</h1> */}
         {/* make a list of skills (on flipcard?) */}
         <CardFlip />
         <CardFlip />
