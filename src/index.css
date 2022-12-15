@@ -76,11 +76,12 @@ body {
 /* footer */
 
 footer {
-  position: absolute;
-  bottom: 0;
   background-color: #C1A3A3;
   color: #f2dada;
   height: 80px;
   text-align: center;
   padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
