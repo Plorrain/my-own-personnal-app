@@ -18,6 +18,10 @@ const App = () => {
             Brunchtime
           </a> */}
       </div>
+      <div className="temporary-content">
+       <p>Work in progress...
+       Stay tuned. More to come.</p>
+      </div>
       <div className="container-full">
         <footer>Made with 🖤 by yours truly</footer>
       </div>
