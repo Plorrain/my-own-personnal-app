@@ -18,6 +18,7 @@ const App = () => {
             Brunchtime
           </a> */}
       </div>
+      {/* conteent not centered in full screen */}
       <div className="temporary-content">
        <p>Work in progress...
        Stay tuned. More to come.</p>
