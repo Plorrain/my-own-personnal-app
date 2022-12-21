@@ -16,7 +16,6 @@ const App = () => {
           {/* <div className="translation-button">
             <p>Eng</p>
           </div> */}
-
       </div>
 
       <div className="container">

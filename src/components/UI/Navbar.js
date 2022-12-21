@@ -32,6 +32,7 @@ export default function Example() {
 
               <div className="flex flex-1 items-center justify-center sm:justify-start">
                 {/* sm:items-stretch was creating the logo to stretch in mobile format */}
+
                 {/* Logo */}
                 <div className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <img
