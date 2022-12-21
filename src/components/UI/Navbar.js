@@ -20,9 +20,12 @@ export default function Example() {
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Logo */}
-
                 <div className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                  <img className="h-8 w-8 rounded-full" src="./images/logo.png" alt="Philippine Lorrain logo" />
+                  <img
+                    className="h-8 w-8 rounded-full"
+                    src="./images/logo.png"
+                    alt="Philippine Lorrain logo"
+                  />
                 </div>
 
                 {/* Mobile menu button*/}
