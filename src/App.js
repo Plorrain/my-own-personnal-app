@@ -4,14 +4,14 @@ const App = () => {
   return (
     <Fragment>
       <div className="container-full">
-        <div className="name-banner">
-          <h1>Philippine Lorrain</h1>
           <div className="translation-button">
             <p>Eng</p>
           </div>
-        </div>
       </div>
       <div className="container">
+        <div className="name-banner">
+          <h1>Philippine Lorrain</h1>
+        </div>
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
           {/* <a href="https://www.brunchtime.live/" target="blank">
