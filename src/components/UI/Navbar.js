@@ -34,7 +34,7 @@ export default function Example() {
                 {/* sm:items-stretch was creating the logo to stretch in mobile format */}
 
                 {/* Logo */}
-                <div className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                <div className="flex bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                   <img
                     className="h-8 w-8 rounded-full"
                     src="./images/logo.png"
