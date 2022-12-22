@@ -8,27 +8,17 @@ body {
   background-color: #eee2dc;
 }
 
-/* container */
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: justify;
-  margin-left: 20px;
-}
-
-
 /* banner/top of page */
 
 .name-banner {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
-  background-color: #eee2dc;
   color: black;
   font-size: x-large;
   text-align: center;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 
@@ -43,6 +33,15 @@ body {
   color: black;
 }
 
+/* container */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 20px;
+}
 /* image */
 
 .image-background {
