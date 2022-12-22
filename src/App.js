@@ -7,12 +7,10 @@ const App = () => {
   return (
     <Fragment>
       <NavBar />
-      {/* <div className="container-full"> */}
       <div className="container">
         <div className="name-banner">
           <h1>Hello! I'm Philippine</h1>
         </div>
-        {/* </div> */}
 
         {/* For english translation */}
         {/* <div className="translation-button">
@@ -24,9 +22,9 @@ const App = () => {
         {/* <a href="https://www.brunchtime.live/" target="blank">
             Brunchtime
           </a> */}
-      </div>
-      <div className="content">
-        <p>Work in progress... Stay tuned. More to come.</p>
+        <div className="content">
+          <p>I am a frontend developer.</p>
+        </div>
       </div>
       <Footer />
     </Fragment>
