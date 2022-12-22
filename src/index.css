@@ -13,8 +13,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  text-align: justify;
-  margin-left: 20px;
+  justify-content: center;
+  /* text-align: justify; */
+  /* margin-left: 20px; */
 }
 
 .container-full {
