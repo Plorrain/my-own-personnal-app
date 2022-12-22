@@ -8,7 +8,7 @@ body {
   background-color: #eee2dc;
 }
 
-/* containers */
+/* container */
 
 .container {
   display: flex;
@@ -16,35 +16,22 @@ body {
   justify-content: center;
   text-align: justify;
   margin-left: 20px;
-}
-
-.container-full {
-  max-width: 100%;
-  box-sizing: border-box;
-  background-color: #eee2dc;
+  /* justify-content: space-evenly; */
 }
 
 /* banner/top of page */
 
 .name-banner {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
-  background-color: #eee2dc;
-  color: black;
-  font-size: 50px;
+  color: #123C69;
+  font-size: x-large;
   text-align: center;
-}
-
-.translation-button {
-  display:flex;
-  justify-content: flex-end;
-  color: black;
-  position: absolute;
-  right: 10px;
-  font-size: small;
-  /* below: this bit of position needs to be fixed */
-  top: 0px;
-
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* image */
@@ -63,6 +50,22 @@ body {
   margin-right: auto;
 }
 
+/* content */
+
+.content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  color: #123C69;
+}
+
+
+/* not sure to delete that just yet */
+
 /* img {
   width: 300px;
   height: 300px;
@@ -75,13 +78,13 @@ body {
   margin-right: auto;
 } */
 
-/* content */
-
-.temporary-content {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: x-large;
-  font-weight: 200;
-  text-align: center;
-  margin-top: 30px;
+/* .translation-button {
+  display:flex;
+  justify-content: flex-end;
   color: black;
-}
+  position: absolute;
+  right: 10px;
+  font-size: small;
+  below: this bit of position needs to be fixed
+  top: 0px;
+} */

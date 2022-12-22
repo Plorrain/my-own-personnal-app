@@ -7,27 +7,24 @@ const App = () => {
   return (
     <Fragment>
       <NavBar />
-      <div className="container-full">
+      <div className="container">
         <div className="name-banner">
           <h1>Hello! I'm Philippine</h1>
         </div>
 
         {/* For english translation */}
-
         {/* <div className="translation-button">
             <p>Eng</p>
           </div> */}
-      </div>
 
-      <div className="container">
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
         {/* <a href="https://www.brunchtime.live/" target="blank">
             Brunchtime
           </a> */}
-      </div>
-      <div className="temporary-content">
-        <p>Work in progress... Stay tuned. More to come.</p>
+        <div className="content">
+          <p>I am a frontend developer.</p>
+        </div>
       </div>
       <Footer />
     </Fragment>
