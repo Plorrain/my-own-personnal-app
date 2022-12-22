@@ -8,17 +8,17 @@ const App = () => {
     <Fragment>
       <NavBar />
       {/* <div className="container-full"> */}
+      <div className="container">
         <div className="name-banner">
           <h1>Hello! I'm Philippine</h1>
         </div>
-      {/* </div> */}
+        {/* </div> */}
 
-      {/* For english translation */}
-      {/* <div className="translation-button">
+        {/* For english translation */}
+        {/* <div className="translation-button">
             <p>Eng</p>
           </div> */}
 
-      <div className="container">
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
         {/* <a href="https://www.brunchtime.live/" target="blank">
