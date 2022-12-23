@@ -11,19 +11,18 @@ const App = () => {
       <div className="container">
         <div className="name-banner">
           <h1>Hello! I'm Philippine</h1>
-        </div>
-
-        {/* For english translation */}
-        {/* <div className="translation-button">
+          {/* For english translation */}
+          {/* <div className="translation-button">
             <p>Eng</p>
           </div> */}
+        </div>
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
         <div className="content">
           <p>I am a frontend developer.</p>
+          <FallingArrow />
         </div>
-        <FallingArrow />
       </div>
       <Footer />
       {/* <a href="https://www.brunchtime.live/" target="blank">
