@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 import NavBar from "./components/UI/NavBar";
+import FallingArrow from "./components/UI/FallingArrow";
 import Footer from "./components/UI/Footer";
 
 const App = () => {
@@ -19,14 +20,15 @@ const App = () => {
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-background"></div>
-        {/* <a href="https://www.brunchtime.live/" target="blank">
-            Brunchtime
-          </a> */}
         <div className="content">
           <p>I am a frontend developer.</p>
         </div>
+        <FallingArrow />
       </div>
       <Footer />
+      {/* <a href="https://www.brunchtime.live/" target="blank">
+          Brunchtime
+        </a> */}
     </Fragment>
   );
 };
