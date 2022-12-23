@@ -23,6 +23,9 @@ const App = () => {
           <p>I am a frontend developer.</p>
         </div>
         <FallingArrow />
+        <div className="title">
+          <p>Project</p>
+        </div>
       </div>
       <Footer />
       {/* <a href="https://www.brunchtime.live/" target="blank">
