@@ -21,8 +21,8 @@ const App = () => {
         <div className="image-background"></div>
         <div className="content">
           <p>I am a frontend developer.</p>
-          <FallingArrow />
         </div>
+        <FallingArrow />
       </div>
       <Footer />
       {/* <a href="https://www.brunchtime.live/" target="blank">
