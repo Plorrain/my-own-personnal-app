@@ -16,7 +16,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  margin-left: 66px;
+  /* this margin will break things needs to be fixed */
+  margin-left: 90px;
   margin-right: 30px;
 }
 
