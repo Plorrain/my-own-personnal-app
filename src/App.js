@@ -23,6 +23,7 @@ const App = () => {
           <p>I am a frontend developer.</p>
           <FallingArrow />
         </div>
+        <div className='title'>Projects</div>
       </div>
       <Footer />
       {/* <a href="https://www.brunchtime.live/" target="blank">
