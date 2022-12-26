@@ -23,9 +23,6 @@ const App = () => {
           <p>I am a frontend developer.</p>
         </div>
         <FallingArrow />
-        <div className="title">
-          <p>Project</p>
-        </div>
         <div className='title'>Projects</div>
       </div>
       <Footer />
