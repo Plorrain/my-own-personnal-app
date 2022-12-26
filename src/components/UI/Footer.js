@@ -2,7 +2,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>Made with 🖤 by Philippine Lorrain.</footer>
+    <div className='footer'>Made with 🖤 by Philippine Lorrain.</div>
   );
 };
 

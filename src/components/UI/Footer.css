@@ -1,4 +1,4 @@
-footer {
+.footer {
   background-color: #eee2dc;
   color: #123C69;
   height: 80px;
@@ -12,6 +12,6 @@ footer {
   box-sizing: border-box;
   background-color: #eee2dc;
   /* lines below not working */
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
 }
