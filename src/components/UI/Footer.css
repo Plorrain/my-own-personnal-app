@@ -11,4 +11,7 @@ footer {
   max-width: 100%;
   box-sizing: border-box;
   background-color: #eee2dc;
+  /* lines below not working */
+  position: fixed;
+  bottom: 0;
 }
