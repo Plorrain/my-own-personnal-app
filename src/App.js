@@ -21,7 +21,10 @@ const App = () => {
         <div className="image-background"></div>
         <div className="content">
           <p>I am a frontend developer.</p>
-          <FallingArrow />
+        </div>
+        <FallingArrow />
+        <div className="title">
+          <p>Project</p>
         </div>
         <div className='title'>Projects</div>
       </div>
