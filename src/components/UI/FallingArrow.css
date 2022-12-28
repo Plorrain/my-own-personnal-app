@@ -6,7 +6,10 @@
   justify-content: center;
   /* those margins came with components, are they good though? */
   left: 50%;
-  margin-left: -30px;
+  /* margin-left: -30px;
+  margin-top: 60px
+  margin-bottom: 60px; */
+  margin: 60px 10px 60px -30px
 }
 
 .arrows path {
