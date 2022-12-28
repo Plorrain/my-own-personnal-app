@@ -35,9 +35,9 @@ const App = (props) => {
             <img src={brunctimePicture} alt="Brunchtime" />
           </a>
           <div className="content">
-              Test application to find brunch spots with the shortest line. This
-              is a team project, built as a final project within a coding
-              bootcamp training.
+            Test application to find brunch spots with the shortest line. This
+            is a team project, built as a final project within a coding bootcamp
+            training.
           </div>
         </Card>
       </div>
