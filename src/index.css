@@ -52,6 +52,15 @@ body {
   margin-right: auto;
 }
 
+.image-brunchtime {
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  */
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+  transition: 0.3s;
+  width: 60%;
+  /* border radius does not work, why? */
+   border-radius: 20%;
+}
+
 /* content */
 
 .content {

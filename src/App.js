@@ -26,11 +26,13 @@ const App = (props) => {
         </div>
         <FallingArrow />
         <div className="title">Project(s)</div>
-        <Card>
+        {/* <Card> */}
+        <div className="image-brunchtime">
           <a href="https://www.brunchtime.live/" target="blank">
-          <img src={brunctimePicture} alt="Brunchtime" />
+            <img src={brunctimePicture} alt="Brunchtime" />
           </a>
-        </Card>
+        </div>
+        {/* </Card> */}
       </div>
       {/* <Footer /> */}
     </Fragment>
