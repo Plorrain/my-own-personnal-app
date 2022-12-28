@@ -2,9 +2,10 @@ import React, { Fragment } from "react";
 
 import NavBar from "./components/UI/NavBar";
 import FallingArrow from "./components/UI/FallingArrow";
-import Footer from "./components/UI/Footer";
+import Card from "./components/UI/Card";
+// import Footer from "./components/UI/Footer";
 
-const App = () => {
+const App = (props) => {
   return (
     <Fragment>
       <NavBar />
@@ -18,14 +19,15 @@ const App = () => {
         </div>
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
-        <div className="image-background"></div>
+        <div className="image-profile"></div>
         <div className="content">
           <p>I am a frontend developer.</p>
         </div>
         <FallingArrow />
-        <div className="title">Projects</div>
+        <div className="title">Project(s)</div>
+        <Card className="image-brunchtime" />
       </div>
-      <Footer />
+      {/* <Footer /> */}
       {/* <a href="https://www.brunchtime.live/" target="blank">
           Brunchtime
         </a> */}
