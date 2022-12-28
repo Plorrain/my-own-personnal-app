@@ -5,6 +5,7 @@ import FallingArrow from "./components/UI/FallingArrow";
 import Card from "./components/UI/Card";
 // import Footer from "./components/UI/Footer";
 import brunctimePicture from "./images/Brunchtime-picture.png";
+import profilePicture from "./images/profile-picture.png";
 
 const App = (props) => {
   return (
@@ -20,7 +21,10 @@ const App = (props) => {
         </div>
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
-        <div className="image-profile"></div>
+        <div className="image-profile">
+          {/* line below: best practice I think but photo does not respond to its css class */}
+          {/* <img src={profilePicture} alt="Philippine Lorrain" /> */}
+        </div>
         <div className="introduction">
           <p>I am a frontend developer.</p>
         </div>
@@ -30,11 +34,13 @@ const App = (props) => {
           <a href="https://www.brunchtime.live/" target="blank">
             <img src={brunctimePicture} alt="Brunchtime" />
           </a>
-        <div className="content">
-          <p>Test application to find brunch spots with the shortest line. This is a team project,
-            built as a final project within a coding bootcamp training.
-          </p>
-        </div>
+          <div className="content">
+            <p>
+              Test application to find brunch spots with the shortest line. This
+              is a team project, built as a final project within a coding
+              bootcamp training.
+            </p>
+          </div>
         </Card>
       </div>
       {/* <Footer /> */}
