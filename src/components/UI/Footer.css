@@ -5,7 +5,7 @@
   text-align: center;
   padding: 30px;
   position: absolute;
-  bottom: 0px;
+  /* bottom: 0; */
   width: 100%;
   border-top: 2px solid #fafafa;
   max-width: 100%;

@@ -3,9 +3,9 @@ import React, { Fragment } from "react";
 import NavBar from "./components/UI/NavBar";
 import FallingArrow from "./components/UI/FallingArrow";
 import Card from "./components/UI/Card";
-// import Footer from "./components/UI/Footer";
+import Footer from "./components/UI/Footer";
 import brunctimePicture from "./images/Brunchtime-picture.png";
-import profilePicture from "./images/profile-picture.png";
+// import profilePicture from "./images/profile-picture.png";
 
 const App = (props) => {
   return (
@@ -43,7 +43,7 @@ const App = (props) => {
           </div>
         </Card>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 };
