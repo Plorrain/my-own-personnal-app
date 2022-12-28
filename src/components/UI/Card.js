@@ -1,13 +1,13 @@
 import { Fragment } from "react";
 
-import './Card.css';
+import "./Card.css";
 
 const Card = (props) => {
   return (
     <Fragment>
-      <div className="card">
-        <div className="card-content">{props.children}</div>
-      </div>
+        <div className="card">
+          <div className="card-content">{props.children}</div>
+        </div>
     </Fragment>
   );
 };

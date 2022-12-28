@@ -34,6 +34,7 @@ body {
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 /* image */
@@ -53,8 +54,9 @@ body {
 }
 
 .image-brunchtime {
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  */
-  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4));
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* line below: was supposed to help put border radius on image */
+  /* filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4)); */
   transition: 0.3s;
   width: 60%;
   /* border radius does not work, why? */
@@ -63,7 +65,7 @@ body {
 
 /* content */
 
-.content {
+.introduction {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: x-large;
   font-weight: 200;
@@ -73,6 +75,16 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #123C69;
+  width: 100%;
+}
+
+.content {
+  color: #90766c;
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
 }
 
 /* title */
@@ -87,6 +99,7 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 /* not sure to delete that just yet */

@@ -21,18 +21,21 @@ const App = (props) => {
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
         <div className="image-profile"></div>
-        <div className="content">
+        <div className="introduction">
           <p>I am a frontend developer.</p>
         </div>
         <FallingArrow />
         <div className="title">Project(s)</div>
-        {/* <Card> */}
-        <div className="image-brunchtime">
+        <Card>
           <a href="https://www.brunchtime.live/" target="blank">
             <img src={brunctimePicture} alt="Brunchtime" />
           </a>
+        <div className="content">
+          <p>Test application to find brunch spots with the shortest line. This is a team project,
+            built as a final project within a coding bootcamp training.
+          </p>
         </div>
-        {/* </Card> */}
+        </Card>
       </div>
       {/* <Footer /> */}
     </Fragment>
