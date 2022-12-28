@@ -4,6 +4,7 @@ import NavBar from "./components/UI/NavBar";
 import FallingArrow from "./components/UI/FallingArrow";
 import Card from "./components/UI/Card";
 // import Footer from "./components/UI/Footer";
+import brunctimePicture from "./images/Brunchtime-picture.png";
 
 const App = (props) => {
   return (
@@ -25,12 +26,12 @@ const App = (props) => {
         </div>
         <FallingArrow />
         <div className="title">Project(s)</div>
-        <Card className="image-brunchtime" />
+        <Card>
+          <img src={brunctimePicture} alt="Brunchtime" />
+          {/* <a href="https://www.brunchtime.live/" target="blank"></a> */}
+        </Card>
       </div>
       {/* <Footer /> */}
-      {/* <a href="https://www.brunchtime.live/" target="blank">
-          Brunchtime
-        </a> */}
     </Fragment>
   );
 };
