@@ -27,8 +27,9 @@ const App = (props) => {
         <FallingArrow />
         <div className="title">Project(s)</div>
         <Card>
+          <a href="https://www.brunchtime.live/" target="blank">
           <img src={brunctimePicture} alt="Brunchtime" />
-          {/* <a href="https://www.brunchtime.live/" target="blank"></a> */}
+          </a>
         </Card>
       </div>
       {/* <Footer /> */}
