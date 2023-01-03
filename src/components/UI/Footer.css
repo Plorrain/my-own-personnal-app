@@ -5,6 +5,7 @@
   text-align: center;
   padding: 30px;
   position: absolute;
+  /* line belowshould be working combined with line above. Here only lone above works */
   /* bottom: 0; */
   width: 100%;
   border-top: 2px solid #fafafa;
@@ -12,6 +13,4 @@
   box-sizing: border-box;
   background-color: #eee2dc;
   /* lines below not working */
-  /* position: fixed;
-  bottom: 0; */
 }
