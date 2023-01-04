@@ -9,6 +9,8 @@ import brunctimePicture from "./images/Brunchtime-picture.png";
 
 const App = (props) => {
   return (
+    // nothing is working with CSS, not responsive: need to do front all
+    // over again with TW and then adjsut with CSS if needed
     <Fragment>
       <NavBar />
       <div className="container">
