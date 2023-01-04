@@ -19,6 +19,7 @@ body {
   /* this margin will break things needs to be fixed */
   margin-left: 90px;
   margin-right: 30px;
+  padding-top: 60px;
 }
 
 /* banner/top of page */
@@ -79,7 +80,7 @@ body {
 }
 
 .content {
-  color: #90766c;
+  color: #73625a;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 17px;
   text-align: center;
