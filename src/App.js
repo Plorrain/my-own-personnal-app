@@ -11,6 +11,7 @@ const App = (props) => {
   return (
     // nothing is working with CSS, not responsive: need to do front all
     // over again with TW and then adjsut with CSS if needed
+    // Tailwind is taking longer than expected to learn. Waiting for some help
     <Fragment>
       <NavBar />
       <div className="container">
