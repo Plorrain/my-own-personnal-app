@@ -1,0 +1,17 @@
+.footer {
+  background-color: #eee2dc;
+  color: #123C69;
+  height: 30px;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  /* line belowshould be working combined with line above. Here only lone above works */
+  /* bottom: 0; */
+  width: 100%;
+  border-top: 2px solid #fafafa;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #eee2dc;
+  /* lines below not working */
+}

@@ -1,0 +1,15 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* line below: was supposed to help put border radius on image */
+  /* filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.4)); */
+  background-color: white;
+  transition: 0.3s;
+  width: 60%;
+  margin: 30px;
+  /* border radius does not work, why? only the shadow of box is moving */
+  border-radius: 3%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
