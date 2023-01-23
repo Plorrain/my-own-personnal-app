@@ -19,7 +19,7 @@ const App = () => {
       {/* container 1 */}
       <div className="bg-lightPink grid grid-cols-1 items-center">
         <div>
-          <h1 className="font-hanken color-navy">Hello! I'm Philippine</h1>
+          <h1 className="text-navy">Hello! I'm Philippine</h1>
         </div>
 
         {/* image exists only in CSS/if it breaks will need to come back here in <img /> */}
